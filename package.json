@@ -1,11 +1,15 @@
 {
-  "name": "begin-app",
-  "version": "0.0.0",
-  "description": "A simple Begin app with the minimum necessary file structure",
+  "name": "simplyred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "npx sandbox"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "@architect/sandbox": "^4.0"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
